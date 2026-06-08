@@ -1,6 +1,8 @@
 {
-  "name": "Python 3 with Docker Outside",
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "name": "Python 3 with Docker Fixed",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {
     "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   },
